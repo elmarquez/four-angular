@@ -1,0 +1,22 @@
+{
+  "name": "four-angular",
+  "version": "1.0.0",
+  "description": "Default build tooling for NodeJs projects.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmarquez/four-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmarquez/four-angular/issues"
+  },
+  "homepage": "https://github.com/elmarquez/four-angular#readme"
+}
