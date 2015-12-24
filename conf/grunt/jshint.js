@@ -1,16 +1,16 @@
+'use strict';
+
 module.exports = {
-  options: {
-    jshintrc: '.jshintrc',
-    reporter: require('jshint-stylish')
-  },
-  dist: {
-    src: [
-      'Gruntfile.js',
-      'src/**/*.js',
-      '!src/main/webapp/scripts/**/*.js'
-    ]
-  },
-  test: {
-    src: ['test/**/*.js']
-  }
+    options: {
+        jshintrc: 'conf/jshint.json'
+    },
+    dist: {
+        src: ['dist/**/*.js']
+    },
+    src: {
+        src: ['Gruntfile.js','src/**/*.js']
+    },
+    test: {
+        src: ['test/**/*.js']
+    }
 };
