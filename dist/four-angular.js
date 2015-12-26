@@ -1,6 +1,19 @@
 'use strict';
 
 /**
+ * Application module.
+ */
+angular.module('four', [
+  'ngAnimate',
+  'ngAria',
+  'ngCookies',
+  'ngRoute',
+  'ngSanitize',
+  'ngTouch',
+  'uuid4'
+]);
+
+/**
  * Layer control.
  */
 angular
@@ -134,19 +147,6 @@ angular
       }
     };
   }]);
-
-/**
- * Application module.
- */
-angular.module('four', [
-  'ngAnimate',
-  'ngAria',
-  'ngCookies',
-  'ngRoute',
-  'ngSanitize',
-  'ngTouch',
-  'uuid4'
-]);
 
 /**
  * Default application routes.

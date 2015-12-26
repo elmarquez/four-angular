@@ -8,8 +8,7 @@ module.exports = {
   },
   dist: {
     options: {
-      open: true,
-      base: 'dist'
+      open: true
     }
   },
   livereload: {
@@ -20,12 +19,6 @@ module.exports = {
           connect.static('src')
         ];
       }
-    }
-  },
-  test: {
-    options: {
-      base: 'dist',
-      port: 8081
     }
   }
 };

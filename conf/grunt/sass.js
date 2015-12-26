@@ -5,7 +5,7 @@ module.exports = {
     },
     src: {
         files: {
-            'dist/four-angular.css': 'src/sass/main.scss'
+            'dist/four-angular.css': 'src/sass/four-angular.scss'
         }
     }
 };
