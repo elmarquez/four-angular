@@ -9,7 +9,16 @@
   "main": "dist/four-angular.js",
   "moduleType": [],
   "license": "MIT",
-  "ignore": [ "NOTES", "conf", "node_modules", "src", "test", "vendor" ],
+  "ignore": [
+    "Gruntfile.js",
+    "NOTES",
+    "package.json",
+    "conf",
+    "node_modules",
+    "src",
+    "test",
+    "vendor"
+  ],
   "dependencies": {
     "angular": "~1.4.8",
     "angular-aria": "~1.4.8",
